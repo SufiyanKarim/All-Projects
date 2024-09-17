@@ -1,20 +1,20 @@
 import React, { useState } from "react";
+import currencyImage from '../assets/currencyImage.png'
+import adminImage from '../assets/adminImage.png'
 
 const initialProjects = [
   {
     id: 1,
     title: "Project 1",
     description: "Description of Project 1",
-    image:
-      "https://plus.unsplash.com/premium_photo-1661281203773-833d30e370ee?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image:adminImage,
     link: "https://admin-dashboardsyncfusion.vercel.app/",
   },
   {
     id: 2,
     title: "Project 2",
     description: "Description of Project 2",
-    image:
-      "https://images.unsplash.com/photo-1614016296767-63446ab979c7?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image:currencyImage,
     link: "https://currency-converterjs.vercel.app/",
   },
   {
